@@ -29,4 +29,8 @@ int rbtree_erase(rbtree *, node_t *);
 
 int rbtree_to_array(const rbtree *, key_t *, const size_t);
 
+void left_rotation(rbtree *t, node_t *x);
+void right_rotation(rbtree *t, node_t *x);
+
+
 #endif  // _RBTREE_H_
